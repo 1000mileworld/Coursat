@@ -1,11 +1,8 @@
-
-
-header {
-    background: #f9f9f9;
-    border-bottom: 1px solid #e8e8e8;
+body {
     font-family: "Open Sans";
-    font-size: 13px;
 }
+
+
 header ul {
     list-style: none;
     margin: 0;
@@ -20,6 +17,12 @@ header ul li {
 
 header ul li:first-child {
     border-left: 1px solid #e8e8e8;
+}
+
+.top-header {
+    background: #f9f9f9;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 13px;
 }
 
 .top-header-left {
@@ -40,6 +43,6 @@ header ul li:first-child {
     color: #afb0b4;
 }
 
-.top-header-right ul li:first-child {
+.top-header-right ul li:first-child { /*make padding around fb icon match others*/
     padding: 13px 22px;
 }
