@@ -2,6 +2,9 @@ body {
     font-family: "Open Sans";
 }
 
+a:hover {
+    text-decoration: none;
+}
 
 header ul {
     list-style: none;
@@ -11,13 +14,9 @@ header ul {
 
 header ul li {
     display: inline-block;
-    border-right: 1px solid #e8e8e8;
-    padding: 13px 18px;
 }
 
-header ul li:first-child {
-    border-left: 1px solid #e8e8e8;
-}
+/*Top header*/
 
 .top-header {
     background: #f9f9f9;
@@ -25,7 +24,16 @@ header ul li:first-child {
     font-size: 13px;
 }
 
-.top-header-left {
+.top-header ul li {
+    border-right: 1px solid #e8e8e8;
+    padding: 13px 18px;
+}
+
+.top-header ul li:first-child {
+    border-left: 1px solid #e8e8e8;
+}
+
+.top-header-left a {
     color: #babbbe;
     text-align: left;
 }
@@ -45,4 +53,53 @@ header ul li:first-child {
 
 .top-header-right ul li:first-child { /*make padding around fb icon match others*/
     padding: 13px 22px;
+}
+
+/*Top nav*/
+.top-nav-left {
+    display: flex;
+    align-items: center;
+}
+.top-nav img {
+    width: 64px;
+    height: 64px;
+    margin: 20px 10px;
+}
+
+.top-nav h1 {
+    font-family: 'Patua One', cursive;
+}
+
+
+.top-nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-nav-right li a {
+    color: #656873;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.top-nav-right li a::after {
+    position: absolute;
+   
+    bottom: 0;
+    background: #df4a43;
+    width: 1%; 
+    height: 5px; 
+    content: "";
+    transition: 0.5s
+}
+
+.top-nav-right a:hover {
+    color: #df4a43;
+}
+
+.top-nav li a:hover::after {
+    width: 100%;
 }
