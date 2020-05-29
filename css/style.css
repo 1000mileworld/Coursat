@@ -70,7 +70,7 @@ header ul li {
     font-family: 'Patua One', cursive;
 }
 
-
+/*
 .top-nav-right {
     display: flex;
     align-items: center;
@@ -102,4 +102,39 @@ header ul li {
 
 .top-nav li a:hover::after {
     width: 100%;
+}
+*/
+.top-nav-right ul #nav li {
+    display: inline-block;
+}
+
+.top-nav-right #nav li a {
+    color: #565966;
+    font-size: 14px; 
+    text-transform: uppercase; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 40px 10px;
+    position: relative;
+}
+
+.top-nav-right #nav li a::after {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    background: #df4a43; 
+    width: 0%; 
+    height: 5px; 
+    content: "";
+    transition: 0.5s;
+}
+
+.top-nav-right #nav li a:hover::after {
+    width: 100%;
+}
+
+.top-nav-right #nav li a:hover {
+    color: #df4a43;
 }
