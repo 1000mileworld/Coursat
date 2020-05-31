@@ -16,6 +16,41 @@ header ul li {
     display: inline-block;
 }
 
+section h1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #cc3333;
+    text-align: center;
+}
+
+section h2 {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section hr {
+    width: 33px;
+    background: #cccccc;
+    margin-left: 0;
+}
+
+section hr.sub {
+    height: 2px;
+    margin-left: auto;
+}
+
+section p.sub {
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+}
+
+section .description {
+    font-size: 13px;
+    text-align: left;
+}
 /*Top header*/
 
 .top-header {
@@ -140,48 +175,12 @@ header ul li {
 }
 
 /* Our Features */
-.features h1 {
-    font-weight: 700;
-    font-size: 25px;
-    color: #cc3333;
-    text-align: center;
-}
-
-.features h2 {
-    color: #666666;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.features hr {
-    width: 33px;
-    background: #cccccc;
-    margin-left: 0;
-}
-
-.features hr.sub {
-    height: 2px;
-    margin-left: auto;
-}
-
-.features p.sub {
-    font-size: 16px;
-    text-align: center;
-    color: #666666;
-    font-weight: 700;
-}
-
 .features i {
     color: #cc3333;
     padding: 15px;
     border: 1px solid #cccccc;
     align-self: flex-start;
     margin-right: 20px;
-}
-
-.features .description {
-    font-size: 13px;
-    text-align: left;
 }
 
 .features a {
@@ -200,3 +199,46 @@ header ul li {
 .features .row:last-child {
     margin-bottom: 110px;
 }
+
+/* Services */
+.owl-carousel {
+    margin-top: 52px;
+}
+
+.services {
+    background: #383c4b;
+    padding: 52px 0px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #df4a43;
+}
+
+.services p.sub {
+    color: #ffffff;
+}
+
+.services p.description {
+    color: #999999;
+    text-align: center;
+}
+
+.services hr {
+    margin-left: auto;
+}
+
+.services i {
+    color: #df4a43;
+    border: 5px solid #666666;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.services a:hover i {
+    background: #df4a43;
+    color: #ffffff;
+}
+
