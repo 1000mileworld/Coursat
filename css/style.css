@@ -138,3 +138,65 @@ header ul li {
 .top-nav-right #nav li a:hover {
     color: #df4a43;
 }
+
+/* Our Features */
+.features h1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #cc3333;
+    text-align: center;
+}
+
+.features h2 {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features hr {
+    width: 33px;
+    background: #cccccc;
+    margin-left: 0;
+}
+
+.features hr.sub {
+    height: 2px;
+    margin-left: auto;
+}
+
+.features p.sub {
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+    font-weight: 700;
+}
+
+.features i {
+    color: #cc3333;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    align-self: flex-start;
+    margin-right: 20px;
+}
+
+.features .description {
+    font-size: 13px;
+    text-align: left;
+}
+
+.features a {
+    color: #666666;
+    font-weight: 700;
+}
+
+.features .item {
+    display: flex;
+}
+
+.features .row {
+    margin: 50px auto;
+}
+
+.features .row:last-child {
+    margin-bottom: 110px;
+}
