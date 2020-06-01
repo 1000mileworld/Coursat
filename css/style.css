@@ -16,6 +16,10 @@ header ul li {
     display: inline-block;
 }
 
+section {
+    padding: 52px 0px;
+}
+
 section h1 {
     font-weight: 700;
     font-size: 25px;
@@ -207,7 +211,6 @@ section .description {
 
 .services {
     background: #383c4b;
-    padding: 52px 0px;
     text-align: center;
 }
 
@@ -242,3 +245,78 @@ section .description {
     color: #ffffff;
 }
 
+/* Courses */
+.courses {
+    background: #f6f6f6;
+}
+.course_main {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.courses .item {
+    border: 1px solid #d8d8d9;
+    margin: 14px;
+}
+
+.courses h2 {
+    color: #df4a43;
+    font-size: 18px;
+}
+
+.courses p.tag {
+    font-size: 12px;
+    color: #bbbcbf;
+    margin: 20px 0;
+}
+
+.courses p.description {
+    margin: 0;
+}
+
+.courses a {
+    border: 1px solid #df4a43;
+    padding: 15px 25px;
+    color: #df4a43;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 0;
+    text-align: center;
+    background-image: url(../images/testimonial\ bg.png);
+}
+
+.testimonials .overlay2 {
+    padding: 52px 0px;    
+    background: #e25d58;
+    opacity: 0.9;
+}
+
+.quote {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.author {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.position, .source {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: white;
+}
+
+.source {
+    color: black;
+}
