@@ -70,3 +70,7 @@ $('.clients .owl-carousel').owlCarousel({
         }
     }
 })
+
+$(function(){
+    $.scrollUp();
+});
