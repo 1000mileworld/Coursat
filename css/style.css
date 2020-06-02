@@ -311,7 +311,7 @@ section .description {
     color: white;
 }
 
-.author {
+.testimonials .author {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -371,3 +371,70 @@ section .description {
     top: -5px;
 }
 
+/* Footer Info */
+.info {
+    background: #2c2f3c;
+    color: #cbcbcd;
+    font-size: 13px;
+}
+
+.info h1 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #f1f1f2;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.info h2 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fefefe;
+}
+
+.info ul {
+    list-style: none;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.info ul li {
+    margin: 8px 0;
+}
+
+.info i {
+    margin-right: 13px;
+    color: #6f7478;
+}
+
+.course {
+    display: flex;
+    align-content: center;
+}
+
+.info .profile {
+    width: 72px;
+    height: 72px;
+    background: #df4a43;
+    border-radius: 0;
+    margin: auto 20px 30px 0px;
+}
+
+.course_info {
+    flex: 1;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.info p {
+    margin-bottom: 4px;
+}
+
+.info .author {
+    color: #df4a43
+}
