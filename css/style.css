@@ -288,6 +288,8 @@ section .description {
     padding: 0;
     text-align: center;
     background-image: url(../images/testimonial\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .testimonials .overlay2 {
@@ -295,7 +297,14 @@ section .description {
     background: #e25d58;
     opacity: 0.9;
 }
-
+.profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #df4c45;
+    background: #cbcbcd;
+    margin: 30px auto;
+}
 .quote {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -310,13 +319,14 @@ section .description {
     color: white;
 }
 
-.position, .source {
+.source {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-style: italic;
     color: white;
+    margin-bottom: 50px;
 }
 
-.source {
+.company {
     color: black;
 }
