@@ -6,7 +6,7 @@ a:hover {
     text-decoration: none;
 }
 
-header ul {
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -501,4 +501,24 @@ ul.social li {
     font-size: 11px;
     margin-bottom: 30px;
     color: #6f7478;
+}
+
+/* Footer Nav */
+footer nav {
+    background: #262934;
+    color: #bbbbbd;
+    font-size: 13px;
+    padding: 18px 0 8px 0;
+}
+
+footer nav ul li {
+    margin: 0 11px;
+}
+
+footer nav a {
+    color: #6f7478;
+}
+
+footer nav a:hover {
+    color: white;
 }
