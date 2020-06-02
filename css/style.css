@@ -330,3 +330,44 @@ section .description {
 .company {
     color: black;
 }
+
+/* Clients */
+.clients h1 {
+    text-align: left;
+}
+
+.clients hr.sub {
+    margin-left: 0;
+}
+
+.clients .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: #df4a43;
+    font-size: 25px;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.clients .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+    background: #262626;
+}
+
+.clients .owl-nav button:focus {
+    outline: none;
+}
+
+.clients .owl-dots{
+    display: none;
+}
+
+.clients .owl-nav {
+    position: absolute;
+    top: -114px;
+    right: 0;
+}
+
+.clients .owl-nav button span {
+    position: relative;
+    top: -5px;
+}
+
