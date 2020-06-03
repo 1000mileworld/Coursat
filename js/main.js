@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel();
+    $.scrollUp();
+    $('#nav').slicknav();
 });
 
 $('.services .owl-carousel').owlCarousel({
@@ -70,7 +72,3 @@ $('.clients .owl-carousel').owlCarousel({
         }
     }
 })
-
-$(function(){
-    $.scrollUp();
-});
